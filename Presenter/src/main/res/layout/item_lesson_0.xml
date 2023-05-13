@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="180dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    android:padding="4dp"
+
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labTitleL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:autoSizeMaxTextSize="40sp"
+            android:autoSizeMinTextSize="20sp"
+            android:autoSizeTextType="uniform"
+            android:ellipsize="none"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="bottom|start"
+            android:justificationMode="none"
+            android:padding="0dp"
+            android:paddingStart="3dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="3dp"
+            android:text="@string/expectingContent"
+            android:textSize="20sp" />
+
+        <FrameLayout
+            android:id="@+id/imgPrevL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/ic_launcher_background">
+
+            <TextView
+                android:id="@+id/labDescL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeMinTextSize="16sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="bottom|start"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/expectingContent"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

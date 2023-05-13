@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chemistry\'s Granite</string>
+    <string name="lab_nav_learn">Learn!</string>
+    <string name="lab_nav_practice">Practice!</string>
+    <string name="lab_nav_rest">Rest!</string>
+    <string name="expectingContent">[ExCo]</string>
+    <string name="peek">Inspect!</string>
+    <string name="act_settings">Settings</string>
+    <string name="confirm_about_lesson">Read now!</string>
+    <string name="reject_about_lesson">Not today...</string>
+
+    <string name="doneReading">Got it!</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="progress">% completed</string>
+</resources>

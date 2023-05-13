@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="#05000000"
+
+    android:backgroundTint="#80FFFFFF"
+    android:padding="4dp"
+
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#05000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="22sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/expectingContent"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/labDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/expectingContent"
+            android:textSize="16sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listLesson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="180dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

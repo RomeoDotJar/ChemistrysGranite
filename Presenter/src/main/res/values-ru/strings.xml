@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Гранит Химии</string>
+    <string name="lab_nav_learn">Познавай!</string>
+    <string name="lab_nav_rest">Отдыхай!</string>
+    <string name="expectingContent">[ОжКо]</string>
+    <string name="peek">Изучай!</string>
+    <string name="act_settings">Настройки</string>
+    <string name="reject_about_lesson">Не сегодня...</string>
+    <string name="confirm_about_lesson">Читать сейчас!</string>
+    <string name="lab_nav_practice">Практикуйся!</string>
+    <string name="doneReading">Понял!</string>
+    <string name="previous">Предыдущее</string>
+    <string name="next">Следующее</string>
+    <string name="progress">% прочитано</string>
+</resources>

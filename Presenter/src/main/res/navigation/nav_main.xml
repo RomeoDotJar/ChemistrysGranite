@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@+id/nav_item_rest">
+
+    <fragment
+        android:id="@+id/nav_item_rest"
+        android:name="ru.romeo.cg.fragment.home.HomeF"
+        android:label="@string/lab_nav_rest"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_item_learn"
+        android:name="ru.romeo.cg.fragment.edu.EduF"
+        android:label="@string/lab_nav_learn"
+        tools:layout="@layout/fragment_edu" />
+
+    <fragment
+        android:id="@+id/nav_item_peek"
+        android:name="ru.romeo.cg.fragment.home.HomeF"
+        android:label="@string/peek"
+        tools:layout="@layout/fragment_tables" />
+
+</navigation>
